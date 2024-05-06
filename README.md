@@ -11,7 +11,7 @@ The original implementation can be found at its <a href="https://github.com/thog
 For the HE operation, we leverage the <a href="https://pillow.readthedocs.io/en/stable/reference/ImageOps.html#PIL.ImageOps.equalize">ImageOps.equalize()</a> function from Pillow library.
 This HE operation is used as a preprocessing step for both training and testing to validate its effectiveness in the camouflaged object detection (COD) task.
 Although the results of HE for all experiments are _not good_ (please refer to our <a href="https://drive.google.com/file/d/1BQoDZMORJXoVFHEcnvKdWNUy5g46ckds/view?usp=drive_link">report</a>), this investigation has expanded our understanding of image processing algorithm, deep learning
-architecture, and COD task.
+architecture, and COD task. We hope this investigation can contribute to the improvement of COD task.
 
 ## Usage
 
