@@ -10,7 +10,7 @@ This repository contains our histogram equalization (HE) extension for the "**Bo
 The original implementation can be found at its <a href="https://github.com/thograce/BGNet">repository</a>. The only difference between our extension and the original implementation lies in the _utils/tdataloader_, where we implement the "_rgb_loader_he_" function. This function is used to load an image given its path, and then apply histogram equalization (HE) to that image.
 For the HE operation, we leverage the <a href="https://pillow.readthedocs.io/en/stable/reference/ImageOps.html#PIL.ImageOps.equalize">ImageOps.equalize()</a> function from Pillow library.
 This HE operation is used as a preprocessing step for both training and testing to validate its effectiveness in the camouflaged object detection (COD) task.
-Although the results of HE for all experiments are _not good_ (please refer to our <a href="https://drive.google.com/file/d/1BQoDZMORJXoVFHEcnvKdWNUy5g46ckds/view?usp=drive_link">report</a>), this investigation has expanded our understanding of image processing algorithm, deep learning
+Although the results of HE for all experiments are _not good_ (please refer to our <a href="[https://drive.google.com/file/d/1BQoDZMORJXoVFHEcnvKdWNUy5g46ckds/view?usp=drive_link](https://drive.google.com/file/d/1B0F7tw3KGfTEHRxgP7YsH_hF647iHW1O/view?usp=sharing)">report</a>), this investigation has expanded our understanding of image processing algorithm, deep learning
 architecture, and COD task. We hope this investigation can contribute to the improvement of COD task.
 
 ## Usage
